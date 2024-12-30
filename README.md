@@ -14,7 +14,7 @@ performance analysis, and memory management.
 
 The project is organized as follows:
 
-rodinia_3.1_DD2360_Group33/
+Final-Project-DD2360-Group29/
 
 ├── bin/
 
