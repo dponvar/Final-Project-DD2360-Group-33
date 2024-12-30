@@ -1,0 +1,29 @@
+# CUDA BFS Implementation
+
+This directory contains the CUDA source files for implementing the Breadth-First Search (BFS) algorithm on the Rodinia dataset.
+
+## Files
+
+- `bfs.cu`: Basic implementation of the BFS algorithm using CUDA.
+- `bfs_managed.cu`: BFS implementation using unified memory for better memory management.
+- `bfs_time.cu`: BFS implementation with execution time measurement.
+- `bfs_managed_time.cu`: BFS implementation using unified memory with execution time measurement.
+- `bfs_memory.cu`: BFS optimized for memory management to improve performance.
+- `bfs_managed_memory.cu`: BFS implementation using unified memory with memory management analysis.
+- `kernel.cu`: Implementation of the first kernel used.
+- `kernel2.cu`: Implementation of the second kernel used.
+- `README.md`: Information about the folder.
+- `result_managed.txt`: Results obtained of the version with Unified Memory.
+- `result.txt`: Original results.
+- `compare.py`: Script to compare the results to see if they are equivalent 
+
+These files are designed to showcase various optimizations of the BFS algorithm, including the use of unified memory and performance measurements. 
+
+## Purpose
+
+The goal of these implementations is to demonstrate different approaches to optimizing BFS on CUDA, applying concepts learned in the Applied GPU Programming course (DD2360).
+
+## Usage
+
+To compile and run the programs, use the provided `Makefile` in the main folder. Ensure that you have the necessary CUDA environment set up before compiling.
+
