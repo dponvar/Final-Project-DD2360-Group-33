@@ -16,7 +16,9 @@ The project is organized as follows:
 
 rodinia_3.1_DD2360_Group33/
 ├── bin/
+
 ├── common/
+
 ├── cuda/
 │   └── bfs/
 │       ├── bfs.cu
