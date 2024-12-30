@@ -95,17 +95,17 @@ The `Makefile` simplifies the compilation and execution of the programs.
     `make clean`
 
 2. Example Output
-    -------------------------------
+    
     Compiling cuda/bfs/bfs.cu
     Giving permissions to cuda/bfs/bfs
-    -------------------------------
+    
     Executing bfs.cu with graph1MW_6.txt
     <program output>
 
-    -------------------------------
+    
     Executing bfs_managed.cu with graph1MW_6.txt
     <program output>
-    ...
+    
 
 3. Requirements
     
