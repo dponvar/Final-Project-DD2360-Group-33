@@ -136,9 +136,11 @@ The `Makefile` simplifies the compilation and execution of the programs.
 3. Requirements
     
     CUDA Toolkit: Ensure the CUDA toolkit is installed.
+   
     Operating System: Compatible with Linux and systems with CUDA support.
+   
     Development Environment: Suitable for local terminals or Google Colab.
 
-4. Additional Notes
-    Results are saved in newresult.txt if configured in the code.
+5. Additional Notes
+    Results are saved in result_managed.txt if configured in the code.
     The project is based on Rodinia 3.1 and includes advanced memory and performance optimizations.
