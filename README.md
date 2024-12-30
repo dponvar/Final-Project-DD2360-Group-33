@@ -24,7 +24,7 @@ rodinia_3.1_DD2360_Group33/
 
 │   └── bfs/
 
-│       ├── bfs.cu
+          ├── bfs.cu
 
 │       ├── bfs_managed.cu
 
