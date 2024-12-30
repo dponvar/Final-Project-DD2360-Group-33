@@ -15,32 +15,57 @@ performance analysis, and memory management.
 The project is organized as follows:
 
 rodinia_3.1_DD2360_Group33/
+
 ├── bin/
 
 ├── common/
 
 ├── cuda/
+
 │   └── bfs/
+
 │       ├── bfs.cu
+
 │       ├── bfs_managed.cu
+
 │       ├── bfs_time.cu
+
 │       ├── bfs_managed_time.cu
+
+
 │       ├── bfs_memory.cu
+
 │       ├── bfs_managed_memory.cu
+
 │       ├── kernel.cu
+
 │       ├── kernel2.cu
+
 │       ├── README.md
+
 │       ├── result_managed.txt
+
+
 │       ├── result.txt   
+
 │       ├── compare.py          
+
 ├── data/
+
 │   └── bfs/
+
 │       ├── graph1MW_6.txt
+
 │       ├── graph4096.txt
+
 │       ├── graph65536.txt
+
 │       └── inputGen/
+
 ├── LICENSE
+
 ├── Makefile
+
 └── README.md
 
 
