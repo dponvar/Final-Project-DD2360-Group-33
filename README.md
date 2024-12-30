@@ -24,43 +24,42 @@ rodinia_3.1_DD2360_Group33/
 
 │   └── bfs/
 
-          ├── bfs.cu
+│                 ├── bfs.cu
 
-│       ├── bfs_managed.cu
+│                 ├── bfs_managed.cu
 
-│       ├── bfs_time.cu
+│                 ├── bfs_time.cu
 
-│       ├── bfs_managed_time.cu
-
-
-│       ├── bfs_memory.cu
-
-│       ├── bfs_managed_memory.cu
-
-│       ├── kernel.cu
-
-│       ├── kernel2.cu
-
-│       ├── README.md
-
-│       ├── result_managed.txt
+│                 ├── bfs_managed_time.cu
 
 
-│       ├── result.txt   
+│                 ├── bfs_memory.cu
 
-│       ├── compare.py          
+│                 ├── bfs_managed_memory.cu
+
+│                 ├── kernel.cu
+
+│                 ├── kernel2.cu
+
+│                 ├── README.md
+
+│                 ├── result_managed.txt
+
+│                 ├── result.txt   
+
+│                 ├── compare.py          
 
 ├── data/
 
 │   └── bfs/
 
-│       ├── graph1MW_6.txt
+│                 ├── graph1MW_6.txt
 
-│       ├── graph4096.txt
+│                 ├── graph4096.txt
 
-│       ├── graph65536.txt
+│                 ├── graph65536.txt
 
-│       └── inputGen/
+│                 └── inputGen/
 
 ├── LICENSE
 
